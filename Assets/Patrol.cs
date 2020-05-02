@@ -10,7 +10,8 @@ public class Patrol : MonoBehaviour
 
     public Transform[] moveSpots;
     private int randomSpot;
-
+    public Transform target;
+    
     void Start()
     {
         waitTime = startWaitTime;
@@ -32,5 +33,8 @@ public class Patrol : MonoBehaviour
                 waitTime -= Time.deltaTime;
             }
         }
+        Vector2 relativePos = target.position - transform.position;
+        Quaternion rotation = Quaternion.LookRotation(relativePos, Vector2.up);
+        transform.rotation = rotation;
     }
 }
