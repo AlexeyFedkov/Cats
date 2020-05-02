@@ -6,14 +6,14 @@ public class IsometricPlayerMovementController : MonoBehaviour
 {
 
     public float movementSpeed = 1f;
-    IsometricCharacterRenderer isoRenderer;
+    // IsometricCharacterRenderer isoRenderer;
 
     Rigidbody2D rbody;
 
     private void Awake()
     {
         rbody = GetComponent<Rigidbody2D>();
-        isoRenderer = GetComponentInChildren<IsometricCharacterRenderer>();
+        // isoRenderer = GetComponentInChildren<IsometricCharacterRenderer>();
     }
 
     void FixedUpdate()
@@ -25,7 +25,7 @@ public class IsometricPlayerMovementController : MonoBehaviour
         inputVector = Vector2.ClampMagnitude(inputVector, 1);
         Vector2 movement = inputVector * movementSpeed;
         Vector2 newPos = currentPos + movement * Time.fixedDeltaTime;
-        isoRenderer.SetDirection(movement);
+        // isoRenderer.SetDirection(movement);
         rbody.MovePosition(newPos);
     }
 }

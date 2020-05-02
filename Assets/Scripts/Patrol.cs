@@ -1,7 +1,8 @@
 ﻿﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+ 
+[RequireComponent(typeof(Rigidbody2D))]
 public class Patrol : MonoBehaviour
 {
     public float speed;
@@ -13,16 +14,19 @@ public class Patrol : MonoBehaviour
     private int currentSpot = 0;
     // private int randomSpot;
     // public Transform target;
+
+    private Rigidbody2D _rb;
     
     void Start()
     {
         waitTime = startWaitTime;
+        _rb = GetComponent<Rigidbody2D>();
         // randomSpot = Random.Range(0, moveSpots.Length);
     }
 
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, moveSpots[currentSpot].position, speed * Time.deltaTime);
+        _rb.MovePosition(Vector2.MoveTowards(transform.position, moveSpots[currentSpot].position, speed * Time.deltaTime));
         if (Vector2.Distance(transform.position, moveSpots[currentSpot].position) < 0.3f)
         {
             if (waitTime <= 0)
@@ -39,12 +43,15 @@ public class Patrol : MonoBehaviour
             return;
         }
         Vector2 relativePos = moveSpots[currentSpot].position - transform.position;
-        var angle = Vector2.Angle(Vector2.up, relativePos);
+        var angle = Vector2.SignedAngle(Vector2.up, relativePos);
         
-        var euler = transform.eulerAngles;
-        euler.z = angle;
-        transform.eulerAngles = euler;
+        _rb.SetRotation(angle);
         // Quaternion rotation = Quaternion.LookRotation(relativePos, Vector2.up);
         // transform.rotation = rotation;
+    }
+
+    public void Disable()
+    {
+        Debug.Log($"Enemy {gameObject.name} disabled");
     }
 }
