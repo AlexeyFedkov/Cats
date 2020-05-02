@@ -58,6 +58,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Stealth.cs" />
      <Compile Include="Assets\Test.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>E:/GameDev/unity/Cats/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
