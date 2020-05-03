@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: 26e52c0d2a62a4a61a16d58e0b33e472
+guid: 326d90178fb864350b9cec016e3380b4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8793639957104055765
-    second: idle_0
+      213: -5299463895017809771
+    second: secureguard_0
   - first:
-      213: 6084859605308855041
-    second: idle_1
+      213: 6061365140718551537
+    second: secureguard_1
   - first:
-      213: 8603369663158992956
-    second: idle_2
+      213: -1443207248590070942
+    second: secureguard_2
+  - first:
+      213: -5673422537581744950
+    second: secureguard_3
+  - first:
+      213: 6869532004548554781
+    second: secureguard_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -120,64 +126,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle_0
+      name: secureguard_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 5
-        width: 26
-        height: 27
-      alignment: 9
-      pivot: {x: 0.62123406, y: 0.09139601}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d55ed543f8490a70800000000000000
-      internalID: 8793639957104055765
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle_1
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 1
-        width: 29
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 103de827293c17450800000000000000
-      internalID: 6084859605308855041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle_2
-      rect:
-        serializedVersion: 2
-        x: 80
+        x: 1
         y: 1
         width: 37
         height: 61
       alignment: 9
-      pivot: {x: 0.49574012, y: 0.076276645}
+      pivot: {x: 0.49325567, y: 0.0663725}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c30c6f3402f456770800000000000000
-      internalID: 8603369663158992956
+      spriteID: 598947d4aa58476b0800000000000000
+      internalID: -5299463895017809771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: secureguard_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1
+        width: 37
+        height: 62
+      alignment: 9
+      pivot: {x: 0.50674427, y: 0.061291985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f107722b7b4e1450800000000000000
+      internalID: 6061365140718551537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: secureguard_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1
+        width: 37
+        height: 60
+      alignment: 9
+      pivot: {x: 0.48651123, y: 0.071622476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b158267a2b8fbe0800000000000000
+      internalID: -1443207248590070942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: secureguard_3
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 0
+        width: 37
+        height: 60
+      alignment: 9
+      pivot: {x: 0.49325562, y: 0.063304394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accaebad244f341b0800000000000000
+      internalID: -5673422537581744950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: secureguard_4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 37
+        height: 61
+      alignment: 9
+      pivot: {x: 0.43930095, y: 0.06637255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d103b4836fa755f50800000000000000
+      internalID: 6869532004548554781
       vertices: []
       indices: 
       edges: []
