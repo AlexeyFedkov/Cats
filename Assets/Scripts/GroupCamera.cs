@@ -9,6 +9,8 @@ public class GroupCamera : MonoBehaviour
     [Range(0, 1)]
     public float lerpSpeed;
 
+    public Transform moveTo;
+
     private Vector3 prevPosition;
     private float z;
 
@@ -21,7 +23,7 @@ public class GroupCamera : MonoBehaviour
     
     private void Update()
     {
-        var newPos = Vector3.Lerp(prevPosition, AveragePosition(), lerpSpeed);
+        var newPos = Vector3.Lerp(prevPosition, moveTo ? moveTo.position + Vector3.back * 10 : AveragePosition(), lerpSpeed);
         prevPosition = newPos;
         transform.position = newPos;
     }

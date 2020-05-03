@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 
     public AudioSource levelMusic;
     public bool onPause;
+    public bool isFaled;
     
     public KeyCode pauseButton = KeyCode.P;
     public GameObject pauseObject;
@@ -50,6 +51,7 @@ public class GameManager : MonoBehaviour
         pauseObject.SetActive(false);
         gameOverObject.SetActive(false);
         winObject.SetActive(false);
+        isFaled = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         levelMusic.Play();
         Time.timeScale = 1;
@@ -57,6 +59,8 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        if (isFaled) return;
+        isFaled = true;
         levelMusic.Stop();
         Invoke(nameof(GameOverInternal), 1);
     }

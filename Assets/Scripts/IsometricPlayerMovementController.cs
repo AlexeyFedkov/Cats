@@ -21,6 +21,7 @@ public class IsometricPlayerMovementController : MonoBehaviour
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _as = GetComponent<AudioSource>();
+        _animator.SetFloat("Offset", Random.Range(0, 1.0f));
         // isoRenderer = GetComponentInChildren<IsometricCharacterRenderer>();
     }
 

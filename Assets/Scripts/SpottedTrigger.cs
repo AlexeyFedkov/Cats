@@ -13,6 +13,7 @@ public class SpottedTrigger : MonoBehaviour
         {
             var catBullet = colission.GetComponent<CatBullet>();
             if (catBullet.isMoving) return;
+            FindObjectOfType<GroupCamera>().moveTo = transform.parent.parent;
             onSpotted.Invoke();
             // Debug.Log("Cat spotted!");
         }
