@@ -179,6 +179,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -644,6 +645,11 @@ PrefabInstance:
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4835978758135080371, guid: a1b7adcd6deb14f4a83826124e5d44ef,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bb6f36ae570986c4abc095af145ba593, type: 3}
     - target: {fileID: 2375135863882693539, guid: a1b7adcd6deb14f4a83826124e5d44ef,
         type: 3}
       propertyPath: moveSpots.Array.size
@@ -753,6 +759,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 211408297}
     m_Modifications:
+    - target: {fileID: 821622704675584505, guid: 257da69640c72439b85b3e8d70323cae,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 523f538c256c94741bebe5a2299444a6, type: 3}
     - target: {fileID: 8869187416895737860, guid: 257da69640c72439b85b3e8d70323cae,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -833,6 +844,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 211408297}
     m_Modifications:
+    - target: {fileID: 821622704675584505, guid: 257da69640c72439b85b3e8d70323cae,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 523f538c256c94741bebe5a2299444a6, type: 3}
     - target: {fileID: 8869187416895737860, guid: 257da69640c72439b85b3e8d70323cae,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -958,6 +974,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1055,6 +1072,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 211408297}
     m_Modifications:
+    - target: {fileID: 821622704675584505, guid: 257da69640c72439b85b3e8d70323cae,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 523f538c256c94741bebe5a2299444a6, type: 3}
     - target: {fileID: 8869187416895737860, guid: 257da69640c72439b85b3e8d70323cae,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1665,6 +1687,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 211408297}
     m_Modifications:
+    - target: {fileID: 821622704675584505, guid: 257da69640c72439b85b3e8d70323cae,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 523f538c256c94741bebe5a2299444a6, type: 3}
     - target: {fileID: 8869187416895737860, guid: 257da69640c72439b85b3e8d70323cae,
         type: 3}
       propertyPath: m_LocalPosition.x

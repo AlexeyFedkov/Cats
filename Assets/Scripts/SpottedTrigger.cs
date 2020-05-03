@@ -11,8 +11,10 @@ public class SpottedTrigger : MonoBehaviour
     {
         if (colission.CompareTag("Player"))
         {
+            var catBullet = colission.GetComponent<CatBullet>();
+            if (catBullet.isMoving) return;
             onSpotted.Invoke();
-            Debug.Log("Cat spotted!");
+            // Debug.Log("Cat spotted!");
         }
     }
 }

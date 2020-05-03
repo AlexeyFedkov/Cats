@@ -5,6 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator))]
 public class Patrol : MonoBehaviour
 {
+    public bool isPresident;
     public float speed;
     private float waitTime;
     public float startWaitTime;
@@ -22,7 +23,10 @@ public class Patrol : MonoBehaviour
     private static readonly int Disable1 = Animator.StringToHash("disable");
 
     private AudioSource _as;
-    
+    private static readonly int Spotted = Animator.StringToHash("spotted");
+
+    private bool isSpotted = false;
+
     void Start()
     {
         waitTime = startWaitTime;
@@ -32,12 +36,19 @@ public class Patrol : MonoBehaviour
         _as = GetComponent<AudioSource>();
         _as.Play();
         _animator.SetBool(Move, true);
+        
+        var onSpotted = GetComponentInChildren<SpottedTrigger>().onSpotted;
+        onSpotted.AddListener(CatFound);
+        onSpotted.AddListener(GameManager.instance.GameOver);
 
         // randomSpot = Random.Range(0, moveSpots.Length);
     }
 
     void Update()
     {
+        if (isSpotted)
+            return;
+        
         var newPosition =
             Vector2.MoveTowards(transform.position, moveSpots[currentSpot].position, speed * Time.deltaTime);
         var shift = newPosition - (Vector2)transform.position;
@@ -78,7 +89,20 @@ public class Patrol : MonoBehaviour
 
     public void Disable()
     {
+        Destroy(transform.GetChild(0).gameObject);
         _animator.SetTrigger(Disable1);   
         Debug.Log($"Enemy {gameObject.name} disabled");
+
+        if (isPresident)
+        {
+            GameManager.instance.Win();
+        }
+    }
+
+    public void CatFound()
+    {
+        _animator.SetTrigger(Spotted);
+        isSpotted = true;
+        Debug.Log("Cat spotted!");
     }
 }

@@ -6,7 +6,7 @@ public class CatBullet : MonoBehaviour
 {
     private Rigidbody2D _rb;
 
-    private bool isMoving;
+    public bool isMoving;
     
     private void Awake()
     {
@@ -15,6 +15,7 @@ public class CatBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (!isMoving) return;
         if (other.CompareTag("Enemy"))
         {
             other.GetComponent<Patrol>().Disable();

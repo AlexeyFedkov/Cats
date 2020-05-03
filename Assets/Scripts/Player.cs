@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = System.Random;
 
 public class Player : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class Player : MonoBehaviour
     [Space] private GroupCamera _gp;
     private Camera _camera;
 
+    [Space] public AudioSource meow;
+
     private void Awake()
     {
         _gp = FindObjectOfType<GroupCamera>();
@@ -30,7 +33,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(shootKey) && transform.childCount > 1)
+        if (Input.GetKeyDown(shootKey) && !GameManager.instance.onPause && transform.childCount > 1)
         {
             Shoot();
         }
@@ -38,6 +41,9 @@ public class Player : MonoBehaviour
 
     private void Shoot()
     {
+        meow.pitch = UnityEngine.Random.Range(0.5f, 1);
+        meow.Play();
+        
         var currentCat = transform.GetChild(0);
         _gp.observables.Remove(currentCat);
         var direction = Input.mousePosition - _camera.WorldToScreenPoint(currentCat.position);
