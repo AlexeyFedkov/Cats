@@ -13,12 +13,14 @@ public class IsometricPlayerMovementController : MonoBehaviour
 
     private SpriteRenderer _spriteRenderer;
     private Animator _animator;
+    private AudioSource _as;
     
     private void Awake()
     {
         rbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
+        _as = GetComponent<AudioSource>();
         // isoRenderer = GetComponentInChildren<IsometricCharacterRenderer>();
     }
 
@@ -28,7 +30,19 @@ public class IsometricPlayerMovementController : MonoBehaviour
         float horizontalInput = Input.GetAxisRaw("Horizontal");
         float verticalInput = Input.GetAxisRaw("Vertical");
         _spriteRenderer.flipX = horizontalInput < 0;
-        _animator.SetBool("move", !(Mathf.Approximately(horizontalInput, 0) && Mathf.Approximately(verticalInput, 0)));
+        var move = !(Mathf.Approximately(horizontalInput, 0) && Mathf.Approximately(verticalInput, 0));
+        _animator.SetBool("move", move);
+        if (_as)
+        {
+            if (move && !_as.isPlaying)
+            {
+                _as.Play();
+            }
+            else if (!move && _as.isPlaying)
+            {
+                _as.Stop();
+            }
+        }
         Vector2 inputVector = new Vector2(horizontalInput, verticalInput);
         inputVector = Vector2.ClampMagnitude(inputVector, 1);
         Vector2 movement = inputVector * movementSpeed;

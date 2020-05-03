@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Cat
+  - Vision
   layers:
   - Default
   - TransparentFX

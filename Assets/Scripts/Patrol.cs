@@ -21,12 +21,16 @@ public class Patrol : MonoBehaviour
     private static readonly int Move = Animator.StringToHash("move");
     private static readonly int Disable1 = Animator.StringToHash("disable");
 
+    private AudioSource _as;
+    
     void Start()
     {
         waitTime = startWaitTime;
         _sr = GetComponent<SpriteRenderer>();
         _rb = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        _as = GetComponent<AudioSource>();
+        _as.Play();
         _animator.SetBool(Move, true);
 
         // randomSpot = Random.Range(0, moveSpots.Length);
@@ -50,11 +54,15 @@ public class Patrol : MonoBehaviour
                 currentSpot = (currentSpot + 1) % moveSpots.Length; 
                 // randomSpot = Random.Range(0, moveSpots.Length);
                 waitTime = startWaitTime;
+                if (!_as.isPlaying)
+                    _as.Play();
                 _animator.SetBool(Move, true);
             }
             else
             {
                 waitTime -= Time.deltaTime;
+                if (_as.isPlaying)
+                    _as.Stop();
                 _animator.SetBool(Move, false);
             }
 

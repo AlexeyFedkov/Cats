@@ -6,6 +6,8 @@ public class CatBullet : MonoBehaviour
 {
     private Rigidbody2D _rb;
 
+    private bool isMoving;
+    
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -18,7 +20,12 @@ public class CatBullet : MonoBehaviour
             other.GetComponent<Patrol>().Disable();
         }
 
-        if (!other.CompareTag("Cat"))
+        if (other.CompareTag("Vision"))
+        {
+            return;
+        }
+
+        if (!other.CompareTag("Player"))
         {
             Destroy(gameObject);
         }
@@ -26,6 +33,7 @@ public class CatBullet : MonoBehaviour
 
     public void StartMove(float speed)
     {
+        isMoving = true;
         _rb.velocity = transform.right * speed;
     }
 }
