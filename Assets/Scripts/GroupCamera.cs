@@ -30,6 +30,8 @@ public class GroupCamera : MonoBehaviour
 
     private Vector3 AveragePosition()
     {
+        if (observables.Count == 0)
+            return prevPosition;
         var pos = Vector3.zero;
         for (int i = 0; i < observables.Count; i++)
         {

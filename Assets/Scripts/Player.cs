@@ -35,7 +35,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(shootKey) && !GameManager.instance.onPause && (transform.childCount > 1 || inFinalRoom))
+        if (Input.GetKeyDown(shootKey) && !GameManager.instance.onPause && (transform.childCount > 1 || inFinalRoom && transform.childCount > 0))
         {
             Shoot();
         }
