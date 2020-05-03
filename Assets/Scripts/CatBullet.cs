@@ -17,6 +17,11 @@ public class CatBullet : MonoBehaviour
         {
             other.GetComponent<Patrol>().Disable();
         }
+
+        if (!other.CompareTag("Cat"))
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void StartMove(float speed)
