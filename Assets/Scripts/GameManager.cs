@@ -11,14 +11,13 @@ public class GameManager : MonoBehaviour
     public AudioSource levelMusic;
     public bool onPause;
     public bool isFaled;
-    
+
     public KeyCode pauseButton = KeyCode.P;
     public GameObject pauseObject;
 
-    [Space] 
-    
-    public GameObject gameOverObject;
+    [Space] public GameObject gameOverObject;
     public GameObject winObject;
+    public GameObject lastShotGameOverInternal;
 
     private void Awake()
     {
@@ -51,6 +50,7 @@ public class GameManager : MonoBehaviour
         pauseObject.SetActive(false);
         gameOverObject.SetActive(false);
         winObject.SetActive(false);
+        lastShotGameOverInternal.SetActive(false);
         isFaled = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         levelMusic.Play();
@@ -73,6 +73,8 @@ public class GameManager : MonoBehaviour
 
     public void Win()
     {
+        if (isFaled) return;
+        isFaled = true;
         levelMusic.Stop();
         Invoke(nameof(WinInternal), 1);
     }
@@ -80,6 +82,21 @@ public class GameManager : MonoBehaviour
     private void WinInternal()
     {
         winObject.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+    public void LastShotGameOver()
+    {
+        Debug.Log("Last");
+        if (isFaled) return;
+        isFaled = true;
+        levelMusic.Stop();
+        Invoke(nameof(LastShotGameOverInternal), 1);
+    }
+
+    private void LastShotGameOverInternal()
+    {
+        lastShotGameOverInternal.SetActive(true);
         Time.timeScale = 0;
     }
 }

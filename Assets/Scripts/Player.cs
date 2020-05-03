@@ -20,6 +20,8 @@ public class Player : MonoBehaviour
 
     [Space] public AudioSource meow;
 
+
+    public bool inFinalRoom = false;
     private void Awake()
     {
         _gp = FindObjectOfType<GroupCamera>();
@@ -33,7 +35,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(shootKey) && !GameManager.instance.onPause && transform.childCount > 1)
+        if (Input.GetKeyDown(shootKey) && !GameManager.instance.onPause && (transform.childCount > 1 || inFinalRoom))
         {
             Shoot();
         }
@@ -61,7 +63,7 @@ public class Player : MonoBehaviour
         currentCat.eulerAngles = eulers;
                 
         currentCat.parent = null;
-        currentCat.GetComponent<CatBullet>().StartMove(catBulletSpeed);
+        currentCat.GetComponent<CatBullet>().StartMove(catBulletSpeed, transform.childCount == 0);
                 
         UpdateText();
     }
