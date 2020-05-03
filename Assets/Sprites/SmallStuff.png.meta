@@ -1,0 +1,482 @@
+fileFormatVersion: 2
+guid: 523b68cf8a865c84fa01f7f0dd80cd93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5392625257635239999
+    second: Untitled-2_0
+  - first:
+      213: -4548455104902304520
+    second: Untitled-2_1
+  - first:
+      213: -340510569268801026
+    second: Untitled-2_2
+  - first:
+      213: 33363725635070822
+    second: Untitled-2_3
+  - first:
+      213: 2607614108378703750
+    second: Untitled-2_4
+  - first:
+      213: 2647721087300645799
+    second: Untitled-2_5
+  - first:
+      213: 4444117454920247000
+    second: Untitled-2_6
+  - first:
+      213: 6319647138348199108
+    second: Untitled-2_7
+  - first:
+      213: 3444536098617747765
+    second: Untitled-2_8
+  - first:
+      213: -8397655812919811243
+    second: Untitled-2_9
+  - first:
+      213: 1542405176174452583
+    second: Untitled-2_10
+  - first:
+      213: 3041581017532259494
+    second: Untitled-2_11
+  - first:
+      213: 5384691744978314214
+    second: Untitled-2_12
+  - first:
+      213: -4374364044531420905
+    second: Untitled-2_13
+  - first:
+      213: 8076047400019404568
+    second: SmallStuff_0
+  - first:
+      213: -8896293467296995232
+    second: SmallStuff_1
+  - first:
+      213: -3933560339013312312
+    second: SmallStuff_2
+  - first:
+      213: -4564426101638585178
+    second: SmallStuff_3
+  - first:
+      213: 6481116894168555476
+    second: SmallStuff_4
+  - first:
+      213: -6592002028580244010
+    second: SmallStuff_5
+  - first:
+      213: -7910100284612981358
+    second: SmallStuff_6
+  - first:
+      213: 8215066237524534373
+    second: SmallStuff_7
+  - first:
+      213: 4098443218894769661
+    second: SmallStuff_8
+  - first:
+      213: 8041682148978896362
+    second: SmallStuff_9
+  - first:
+      213: -5914416183478763009
+    second: SmallStuff_10
+  - first:
+      213: 485549105211680191
+    second: SmallStuff_11
+  - first:
+      213: 831346326581922539
+    second: SmallStuff_12
+  - first:
+      213: 5264430529573154959
+    second: SmallStuff_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SmallStuff_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.083333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d9188fc9d3e564d9e1f6411dfa105a
+      internalID: 8076047400019404568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallStuff_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 39
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.083333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f56bd09d2057724093699e4f9ee8165
+      internalID: -8896293467296995232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallStuff_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 39
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.083333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6304af24378732349b741d34066c4221
+      internalID: -3933560339013312312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallStuff_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 39
+        width: 12
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.083333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7559d21f5a557646800c5c932360451
+      internalID: -4564426101638585178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallStuff_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 36
+        width: 26
+        height: 25
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ba294ff51bfee42b255a71f164ccb3
+      internalID: 6481116894168555476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallStuff_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 39
+        width: 22
+        height: 20
+      alignment: 9
+      pivot: {x: 0.40909094, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bc0f4954a136844ac502d3b113f0d2
+      internalID: -6592002028580244010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallStuff_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 12
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1e9f62401e0b84aba3b93aa4c74866
+      internalID: -7910100284612981358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallStuff_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 22
+        width: 11
+        height: 8
+      alignment: 9
+      pivot: {x: 0.54545456, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0283d4c2af33c9f43b2fc46b8e53da8c
+      internalID: 8215066237524534373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallStuff_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 21
+        width: 16
+        height: 8
+      alignment: 9
+      pivot: {x: 0.4375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e910219d57973e4789cdb55d272193f
+      internalID: 4098443218894769661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallStuff_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 15
+        width: 23
+        height: 17
+      alignment: 9
+      pivot: {x: 0.43478262, y: 0.29411766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8311cf271aa5244a21db5e29c2643a
+      internalID: 8041682148978896362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallStuff_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 19
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d2a8b1720ba4445a4b80f3b32abbb5
+      internalID: -5914416183478763009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallStuff_11
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 5
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a6a4a76d3bad849aebf1a5544f5311
+      internalID: 485549105211680191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallStuff_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd41f4d664e8b5f41ac38a1c9acb5bb2
+      internalID: 831346326581922539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallStuff_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab92e92d6197cb4996dadab3e816118
+      internalID: 5264430529573154959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

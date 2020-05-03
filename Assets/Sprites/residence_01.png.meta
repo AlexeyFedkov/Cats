@@ -1,0 +1,1310 @@
+fileFormatVersion: 2
+guid: aa7c1d4e344232840a461dc593a6ff12
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5660618443739807322
+    second: residence_01_0
+  - first:
+      213: -848678086828807243
+    second: residence_01_1
+  - first:
+      213: 5218521867064456316
+    second: residence_01_2
+  - first:
+      213: -479708407876196108
+    second: residence_01_3
+  - first:
+      213: 5620392784689609479
+    second: residence_01_4
+  - first:
+      213: -375615731768240869
+    second: residence_01_5
+  - first:
+      213: 3211499957976127442
+    second: residence_01_6
+  - first:
+      213: -1722664466592928187
+    second: residence_01_7
+  - first:
+      213: 7578321657228372896
+    second: residence_01_8
+  - first:
+      213: -1687648381996931473
+    second: residence_01_9
+  - first:
+      213: -266673170034797812
+    second: residence_01_10
+  - first:
+      213: -5541987092106362085
+    second: residence_01_11
+  - first:
+      213: 6691482959399228550
+    second: residence_01_12
+  - first:
+      213: -8017725698606376234
+    second: residence_01_13
+  - first:
+      213: 8879177932971906499
+    second: residence_01_14
+  - first:
+      213: 3449372312194551797
+    second: residence_01_15
+  - first:
+      213: -9057934310989918003
+    second: residence_01_16
+  - first:
+      213: 1168817425661127583
+    second: residence_01_17
+  - first:
+      213: -8613789594083586477
+    second: residence_01_18
+  - first:
+      213: -5325371781709655298
+    second: residence_01_19
+  - first:
+      213: 1893095385162537056
+    second: residence_01_20
+  - first:
+      213: 8166200595376898503
+    second: residence_01_21
+  - first:
+      213: 7435525169901345374
+    second: residence_01_22
+  - first:
+      213: 7374784371635320184
+    second: residence_01_23
+  - first:
+      213: -6821014411985774718
+    second: residence_01_24
+  - first:
+      213: -73637103875582784
+    second: residence_01_25
+  - first:
+      213: -5719858651760485938
+    second: residence_01_26
+  - first:
+      213: 4948169500445929450
+    second: residence_01_27
+  - first:
+      213: 5355928022744083782
+    second: residence_01_28
+  - first:
+      213: 2131591407503306914
+    second: residence_01_29
+  - first:
+      213: -5019685444092885626
+    second: residence_01_30
+  - first:
+      213: -6349354448369502353
+    second: Plant_01
+  - first:
+      213: 1669919359896266730
+    second: residence_01_32
+  - first:
+      213: 1862013219134201948
+    second: residence_01_33
+  - first:
+      213: 497900581725352960
+    second: residence_01_34
+  - first:
+      213: 2135369893249357295
+    second: residence_01_35
+  - first:
+      213: -8436881361955958456
+    second: residence_01_36
+  - first:
+      213: 5557817493413643980
+    second: residence_01_37
+  - first:
+      213: -7141396592696276849
+    second: residence_01_38
+  - first:
+      213: -1646803984563093077
+    second: residence_01_39
+  - first:
+      213: -8259996929403586704
+    second: residence_01_40
+  - first:
+      213: -2889342923254360990
+    second: residence_01_41
+  - first:
+      213: 8145526543339234465
+    second: residence_01_42
+  - first:
+      213: -3671561166628639522
+    second: residence_01_43
+  - first:
+      213: -6643391116874412878
+    second: residence_01_44
+  - first:
+      213: 4984681095864699694
+    second: residence_01_45
+  - first:
+      213: -3380454565926652335
+    second: residence_01_46
+  - first:
+      213: 4344837483252304196
+    second: residence_01_47
+  - first:
+      213: 5513463556196898069
+    second: residence_01_48
+  - first:
+      213: 2952926257679541155
+    second: residence_01_49
+  - first:
+      213: -359481893662225185
+    second: residence_01_50
+  - first:
+      213: -351036404407804021
+    second: residence_01_51
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: residence_01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 273
+        width: 21
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5eb22cbb7e8e8e40800000000000000
+      internalID: 5660618443739807322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 267
+        width: 21
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb29e9c6c3e834f0800000000000000
+      internalID: -848678086828807243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 260
+        width: 38
+        height: 25
+      alignment: 9
+      pivot: {x: 1.0526316, y: -1.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c743cfa3df9eb6840800000000000000
+      internalID: 5218521867064456316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 260
+        width: 38
+        height: 25
+      alignment: 9
+      pivot: {x: 0, y: -1.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f865c0aebbb759f0800000000000000
+      internalID: -479708407876196108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_4
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 250
+        width: 19
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bb795a575affd40800000000000000
+      internalID: 5620392784689609479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 267
+        width: 10
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15d7e76b7b89caf0800000000000000
+      internalID: -375615731768240869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 266
+        width: 7
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7595f423a819c20800000000000000
+      internalID: 3211499957976127442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 265
+        width: 6
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e6a817bcdd718e0800000000000000
+      internalID: -1722664466592928187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_8
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 265
+        width: 7
+        height: 7
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab2fb4456b9b2960800000000000000
+      internalID: 7578321657228372896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_9
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 273
+        width: 7
+        height: 7
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f666f45fcb44498e0800000000000000
+      internalID: -1687648381996931473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 265
+        width: 7
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03d2fc2a269c4cf0800000000000000
+      internalID: -266673170034797812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_11
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 265
+        width: 7
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1343393a18e613b0800000000000000
+      internalID: -5541987092106362085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_12
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 265
+        width: 11
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684129f6c4cecdc50800000000000000
+      internalID: 6691482959399228550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_13
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 265
+        width: 7
+        height: 7
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dadb04f4f05bb090800000000000000
+      internalID: -8017725698606376234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_14
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 273
+        width: 7
+        height: 7
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c51740494d293b70800000000000000
+      internalID: 8879177932971906499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_15
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 266
+        width: 10
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff8c66a7d1aedf20800000000000000
+      internalID: 3449372312194551797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_16
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 266
+        width: 11
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc09f923cb0cb4280800000000000000
+      internalID: -9057934310989918003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_17
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 266
+        width: 7
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b61d78149783010800000000000000
+      internalID: 1168817425661127583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_18
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 266
+        width: 7
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e01b2800ca57880800000000000000
+      internalID: -8613789594083586477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_19
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 265
+        width: 7
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef29e4e549a7816b0800000000000000
+      internalID: -5325371781709655298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_20
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 265
+        width: 7
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0685b860930a54a10800000000000000
+      internalID: 1893095385162537056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_21
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 265
+        width: 11
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c10604dc2c245170800000000000000
+      internalID: 8166200595376898503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_22
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 265
+        width: 7
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a12763fba403760800000000000000
+      internalID: 7435525169901345374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_23
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 265
+        width: 6
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875fc6e005f785660800000000000000
+      internalID: 7374784371635320184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_24
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 265
+        width: 6
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28794c51883e651a0800000000000000
+      internalID: -6821014411985774718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_25
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 174
+        width: 82
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18691589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c41535b1736afef0800000000000000
+      internalID: -73637103875582784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 237
+        width: 21
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec91f508cdafe90b0800000000000000
+      internalID: -5719858651760485938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_27
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 237
+        width: 21
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef6082b1fd6ba440800000000000000
+      internalID: 4948169500445929450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_28
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 230
+        width: 38
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64da836e824145a40800000000000000
+      internalID: 5355928022744083782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_29
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 230
+        width: 38
+        height: 25
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0728a671fe49d10800000000000000
+      internalID: 2131591407503306914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_30
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 245
+        width: 14
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68505ac1fae765ab0800000000000000
+      internalID: -5019685444092885626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant_01
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 190
+        width: 44
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08064516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67b3eff4cf82e7a0800000000000000
+      internalID: -6349354448369502353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_32
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 186
+        width: 23
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07575758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae72a2a6fcebc2710800000000000000
+      internalID: 1669919359896266730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_33
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 172
+        width: 23
+        height: 49
+      alignment: 9
+      pivot: {x: -0.4347826, y: -0.6122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50639d482337d910800000000000000
+      internalID: 1862013219134201948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_34
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 172
+        width: 23
+        height: 49
+      alignment: 9
+      pivot: {x: -0.4347826, y: -0.6122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004333be0f5e8e600800000000000000
+      internalID: 497900581725352960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_35
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 172
+        width: 23
+        height: 49
+      alignment: 9
+      pivot: {x: -0.4347826, y: -0.6122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5113faa9b52ad10800000000000000
+      internalID: 2135369893249357295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_36
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 172
+        width: 23
+        height: 49
+      alignment: 9
+      pivot: {x: -0.4347826, y: -0.6122449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84150801a1d2aea80800000000000000
+      internalID: -8436881361955958456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_37
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 152
+        width: 63
+        height: 69
+      alignment: 9
+      pivot: {x: 0, y: -0.2173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc64f5d4095512d40800000000000000
+      internalID: 5557817493413643980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_38
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 60
+        width: 38
+        height: 83
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88472cb2a9a4ec90800000000000000
+      internalID: -7141396592696276849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_39
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 57
+        width: 38
+        height: 83
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba14b6d40806529e0800000000000000
+      internalID: -1646803984563093077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_41
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 59
+        width: 39
+        height: 87
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26492217bedf6e7d0800000000000000
+      internalID: -2889342923254360990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_42
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 57
+        width: 39
+        height: 86
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4204cfb39ba0170800000000000000
+      internalID: 8145526543339234465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_43
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 60
+        width: 38
+        height: 83
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc2bfb529efb0dc0800000000000000
+      internalID: -3671561166628639522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_44
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 57
+        width: 38
+        height: 83
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc07b63afeedc3a0800000000000000
+      internalID: -6643391116874412878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 59
+        width: 39
+        height: 87
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15638929b763611d0800000000000000
+      internalID: -3380454565926652335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_47
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 57
+        width: 39
+        height: 86
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4494e0ccba6fb4c30800000000000000
+      internalID: 4344837483252304196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_48
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 17
+        width: 6
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5159d2d84e1c38c40800000000000000
+      internalID: 5513463556196898069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 8
+        width: 39
+        height: 39
+      alignment: 9
+      pivot: {x: 0, y: -1.2307693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3a9ec39c6eaf820800000000000000
+      internalID: 2952926257679541155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_50
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 17
+        width: 6
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc04115f1dd20bf0800000000000000
+      internalID: -359481893662225185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residence_01_51
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 8
+        width: 39
+        height: 39
+      alignment: 9
+      pivot: {x: 0, y: -1.2307693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fda04004ed02bf0800000000000000
+      internalID: -351036404407804021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
